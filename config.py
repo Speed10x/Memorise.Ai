@@ -5,7 +5,7 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
+ADMIN_ID = int(os.getenv('ADMIN_ID', '5223903292'))
 MONGODB_URL = os.getenv('MONGODB_URL', 'mongodb://localhost:27017/')
 DATABASE_NAME = os.getenv('DATABASE_NAME', 'reminder_bot')
 
